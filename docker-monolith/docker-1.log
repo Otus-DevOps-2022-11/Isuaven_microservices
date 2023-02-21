@@ -1,0 +1,7 @@
+REPOSITORY                TAG       IMAGE ID       CREATED          SIZE
+isuaven/ubuntu-tmp-file   latest    2507523cf88e   42 seconds ago   63.1MB
+ubuntu                    18.04     5d2df19066ac   3 weeks ago      63.1MB
+hello-world               latest    feb5d9fea6a5   17 months ago    13.3kB
+
+docker inspect image содержит статическое инфо о слоях и их описание
+docker inspect container включает так же динамическое инфо о сети, статусе и т.д.
