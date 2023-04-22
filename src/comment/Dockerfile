@@ -1,5 +1,5 @@
-FROM ruby:2.2
-RUN apt-get clean && apt-get update -qq && apt-get install -y --force-yes build-essential
+FROM ruby:2.3
+RUN apt-get update -qq && apt-get install -y --force-yes build-essential
 
 ENV APP_HOME /app
 RUN mkdir $APP_HOME
