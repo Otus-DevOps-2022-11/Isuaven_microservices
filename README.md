@@ -16,3 +16,7 @@ Isuaven microservices repository
 - Задание со \*: создан docker-compose.override.yml, который
   - Добавляет в каждое приложение volume
   - Запускает puma для руби в дебаг режиме с двумя воркерами
+
+## monitoring-1
+- Выполнено основное ДЗ
+- Выполнены задания со \*
